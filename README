@@ -1,0 +1,22 @@
+Terraform Code to impletement two EC2 instances on different AZ's  and create ELB by sending traffic to multiple instances on different AZ's
+
+Steps
+
+1. Install Terraform - brew install terraform 
+
+2. Install AWScli   -  brew install awscli
+
+3. Run AWS configure and add Access key and Secret Key
+
+4. Run 'terraform init' for downloading plugins
+
+5. Run 'terraform plan'
+If plan success,
+
+6. Run 'terraform apply'
+
+
+
+
+
+
